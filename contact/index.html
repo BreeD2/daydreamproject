@@ -2,7 +2,7 @@
 <html lang="en-US">
 <html>
  <head>
-   <title>About</title>
+   <title>Contact</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
    <center>
 
@@ -72,20 +72,22 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <div style="text-align:center">
       <h2 style="color:white; text-shadow:2px 2px 2px purple;text;font-size: 45px">Contact</h2>
       <p style="color:purple;background-color:pink;height:100;bottom:40px;padding-top:1%;padding-bottom:1%;padding-left:1%;padding-right:1%;border:2px dashed purple;">If you would like to learn more about this project or want to contact me (Bree), please fill out the form below.</p>
+
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="page2/subscriberform.php"required>
     </div>
     <div class="row">
       <div class="column">
         <img src="clouds.jpg" style="width:65%;border:2px solid purple;cursor:none">
       </div>
       <div class="column">
-        <form action="/action_page.php">
+        <form action="page2/subscriberform.php">
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Please enter your first name...">
+          <input type="text" id="fname" name="firstname" placeholder="Please enter your first name..."required>
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Please enter your last name..."><br>
-          <label for="country">Country</label></label>
+          <input type="text" id="lname" name="lastname" placeholder="Please enter your last name..."required><br>
+          <label for="country" required>Country</label></label>
 <br>
-          <select id="country" name="country"style="margin-top:4%">
+          <select id="country" name="country"style="margin-top:4%"required>
       <option>Please select a country</option>
       <option value="AF">Afghanistan</option>
       <option value="AX">Aland Islands</option>
@@ -342,9 +344,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </select>
 <br><br>
 
-          <label for="subject"style="padding:10%%">Subject</label>
+          <label for="subject"style="padding:10%%"required>Subject</label>
 
-          <textarea id="subject"style="margin-top:4%;" name="subject" placeholder="Write something.." style="height:150px;color:purple;background-color:mistyrose; "></textarea>
+          <textarea id="subject"style="margin-top:4%;" name="subject" placeholder="Write something.." style="height:150px;color:purple;background-color:mistyrose; "required></textarea>
           <input type="submit" value="Submit"></input>
         </form>
       </div>
