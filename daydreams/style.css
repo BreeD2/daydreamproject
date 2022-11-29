@@ -62,10 +62,10 @@ cursor: copy;
 
 
 .bigtitle {
-  font-size: 40px;
+  font-size: 55px;
   color:purple;
-  text-shadow: 2px 2px 2px ghostwhite;
-  margin-top:15%;
+  text-shadow: 2px 2px 2px darkgrey;
+  margin-top:10%;
 }
 
 .head {
