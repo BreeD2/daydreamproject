@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+ background: linear-gradient(to top left, #cc99ff 0%, #ffccff 100%);
+margin:auto;
+margin-top: 10%;
+
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;
+
+}
+
+
+
+.img-zoom-lens {
+  position: absolute;
+  /*set the size of the lens:*/
+  width: 35px;
+  height: 35px;
+
+}
+
+.img-zoom-lens: hover {
+cursor: copy;
+
+}
+
+
+.img-zoom-result {
+  border: 1px solid purple;
+  /*set the size of the result div:*/
+  width: 175px;
+  height: 175px;
+}
+
+
+
+
+.img-zoom-container {
+  position: relative;
+
+}
+
+.img-zoom-lens {
+  position: absolute;
+  /*set the size of the lens:*/
+  width: 35px;
+  height: 35px;
+
+}
+
+
+
+
+
+
+.bigtitle {
+  font-size: 40px;
+  color:purple;
+  text-shadow: 2px 2px 2px ghostwhite;
+  margin-top:15%;
+}
+
+.head {
+  color: #ffffff
+;
+  font-style: normal;
+  font-family: helvetica;
+  font-size: 55px;
+  margin: 3%;
+  text-shadow: 3px 3px #cc99ff;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: darkorchid;
+  color: white;
+  margin-top: 100%
+
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #cc99ff
+;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #ffb3ff;}
+
+ul.topnav li a.active {background-color:hotpink;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+</style>
+</head>
+<body>
