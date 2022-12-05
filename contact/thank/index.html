@@ -56,5 +56,183 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	  <p>Author: Bree Dorman</p>
 	  <p><a href="mailto:dormanb@vcu.edu">dormanb@vcu.edu</a></p>
 	</footer>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+var x = document.getElementById("navDemo");
+if (x.className.indexOf("w3-show") == -1) {
+	x.className += " w3-show";
+} else {
+	x.className = x.className.replace(" w3-show", "");
+}
+}
+</script>
+
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+var i, x, tablinks;
+x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+	 x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < x.length; i++) {
+	 tablinks[i].className = tablinks[i].className.replace(" w3-purple", "");
+}
+document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-purple";
+}
+document.getElementById("myLink").click();
+</script>
+
+<script>
+
+$('.like-btn').on('click', function() {
+ $(this).toggleClass('is-active');
+});
+
+$('.minus-btn').on('click', function(e) {
+	e.preventDefault();
+	var $this = $(this);
+	var $input = $this.closest('div').find('input');
+	var value = parseInt($input.val());
+
+	if (value &amp;amp;gt; 1) {
+			value = value - 1;
+	} else {
+			value = 0;
+	}
+
+$input.val(value);
+
+});
+
+$('.plus-btn').on('click', function(e) {
+	e.preventDefault();
+	var $this = $(this);
+	var $input = $this.closest('div').find('input');
+	var value = parseInt($input.val());
+
+	if (value &amp;amp;lt; 100) {
+			value = value + 1;
+	} else {
+			value =100;
+	}
+
+	$input.val(value);
+});
+
+</script>
+
+
 </body>
+</html>
+
+
+
+
+ <script src="jquery-3.6.0.min.js"></script>
+ <script src="jquery.marquee.min.js"></script>
+ <script src="function.js"></script>
+
+
+
+ <script>
+ const d = new Date(2022, 7, 11, 23, 56);
+ document.getElementById("demo").innerHTML = d;
+ </script>
+
+<script>
+ $('.like-btn').on('click', function() {
+		$(this).toggleClass('is-active');
+ });
+
+ $('.minus-btn').on('click', function(e) {
+	e.preventDefault();
+	var $this = $(this);
+	var $input = $this.closest('div').find('input');
+	var value = parseInt($input.val());
+
+	if (value &amp;amp;gt; 1) {
+			value = value - 1;
+	} else {
+			value = 0;
+	}
+
+$input.val(value);
+
+});
+
+$('.plus-btn').on('click', function(e) {
+	e.preventDefault();
+	var $this = $(this);
+	var $input = $this.closest('div').find('input');
+	var value = parseInt($input.val());
+
+	if (value &amp;amp;lt; 100) {
+			value = value + 1;
+	} else {
+			value =100;
+	}
+
+	$input.val(value);
+});
+</script>
+
+<script>
+const minusButton = document.getElementById('minus');
+const plusButton = document.getElementById('plus');
+const inputField = document.getElementById('input');
+
+minusButton.addEventListener('click', event => {
+event.preventDefault();
+const currentValue = Number(inputField.value) || 0;
+inputField.value = currentValue - 1;
+});
+
+plusButton.addEventListener('click', event => {
+event.preventDefault();
+const currentValue = Number(inputField.value) || 0;
+inputField.value = currentValue + 1;
+});
+
+</script>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("demo");
+let captionText = document.getElementById("caption");
+if (n > slides.length) {slideIndex = 1}
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+	slides[i].style.display = "none";
+}
+for (i = 0; i < dots.length; i++) {
+	dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";
+dots[slideIndex-1].className += " active";
+captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+	 </script>
+ </body>
 </html>
