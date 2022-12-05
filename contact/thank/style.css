@@ -83,6 +83,13 @@ ul {
   background-color: purple;
 }
 
+h1:hover {
+  color:white
+}
+
+p:hover {
+  color:white
+}
 li {
   float: left;
   border-right:1px solid white;
