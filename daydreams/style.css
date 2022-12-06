@@ -68,27 +68,17 @@ cursor: copy;
   margin-top:10%;
 }
 
-.head {
-  color: #ffffff
-;
-  font-style: normal;
-  font-family: helvetica;
-  font-size: 55px;
-  margin: 3%;
-  text-shadow: 3px 3px #cc99ff;
-  word-spacing: 5px;
-  letter-spacing: 2px;
 
-}
 
 footer {
   text-align: center;
   padding: 5px;
-  background-color: darkorchid;
+  background-color: purple;
   color: white;
-  margin-top: 100%
+  margin-top: 0%;
 
 }
+
 
 
 ul.topnav {
