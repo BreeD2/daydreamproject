@@ -90,6 +90,12 @@ footer {
 
 }
 
+a:hover {
+  color:mistyrose
+}
+
+
+
 
 ul.topnav {
   list-style-type: none;

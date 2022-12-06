@@ -68,7 +68,9 @@ cursor: copy;
   margin-top:10%;
 }
 
-
+a:hover {
+  color:mistyrose
+}
 
 footer {
   text-align: center;

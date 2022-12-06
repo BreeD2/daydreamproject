@@ -14,7 +14,11 @@ margin-top: 10%;
   font-size: 40px;
   color:white;
   margin-top:10%;
-  color:purple;text-align:left;padding-left:10px
+  color:purple;text-align:right;padding-left:10px;padding-right:10px;
+}
+
+a:hover {
+  color:mistyrose
 }
 
 .biggtitle {

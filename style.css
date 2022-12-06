@@ -18,6 +18,11 @@ margin-top: 30%;
   padding-left: 5%; padding-right: 5%; padding-top: 10%;padding-bottom: 0%
 }
 
+
+a:hover {
+  color:mistyrose
+}
+
 .head {
   color: #ffffff
 ;
