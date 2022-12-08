@@ -50,6 +50,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <!-- Navbar on small screens -->
 
+    <!-- Navbar on small screens -->
+
+    <div id="navDemo" class="w3-bar-block w3-purple w3-hide w3-hide-large w3-hide-medium w3-large"style="margin-top:10.5%">
+
+      <a href="..//index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-blue">Home</a>
+      <a href="..//daydreams/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-blue">Daydreams</a>
+      <a href="..//about/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-red w3-pale-red ">About</a>
+        <a href=".index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-pale-blue">Contact</a>
+
+
+
+
+  </div>
+</div>
 
 <a href="thank/index.html">Hi</a>
   <!-- Head Container -->
@@ -482,79 +496,3 @@ $('.plus-btn').on('click', function(e) {
 
 </body>
 </html>
-
-
-
-
-   <script src="jquery-3.6.0.min.js"></script>
-   <script src="jquery.marquee.min.js"></script>
-   <script src="function.js"></script>
-
-
-
-   <script>
-   const d = new Date(2022, 7, 11, 23, 56);
-   document.getElementById("demo").innerHTML = d;
-   </script>
-
-<script>
-   $('.like-btn').on('click', function() {
-      $(this).toggleClass('is-active');
-   });
-
-   $('.minus-btn').on('click', function(e) {
-    e.preventDefault();
-    var $this = $(this);
-    var $input = $this.closest('div').find('input');
-    var value = parseInt($input.val());
-
-    if (value &amp;amp;gt; 1) {
-        value = value - 1;
-    } else {
-        value = 0;
-    }
-
-  $input.val(value);
-
-});
-
-$('.plus-btn').on('click', function(e) {
-    e.preventDefault();
-    var $this = $(this);
-    var $input = $this.closest('div').find('input');
-    var value = parseInt($input.val());
-
-    if (value &amp;amp;lt; 100) {
-        value = value + 1;
-    } else {
-        value =100;
-    }
-
-    $input.val(value);
-});
-</script>
-
-<script>
-const minusButton = document.getElementById('minus');
-const plusButton = document.getElementById('plus');
-const inputField = document.getElementById('input');
-
-minusButton.addEventListener('click', event => {
-  event.preventDefault();
-  const currentValue = Number(inputField.value) || 0;
-  inputField.value = currentValue - 1;
-});
-
-plusButton.addEventListener('click', event => {
-  event.preventDefault();
-  const currentValue = Number(inputField.value) || 0;
-  inputField.value = currentValue + 1;
-});
-
-</script>
-
-
-
-     </script>
-   </body>
- </html>

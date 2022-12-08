@@ -4,7 +4,8 @@
 
 
 body {
- background: linear-gradient(to top left, #cc99ff 0%, #ffccff 100%);
+
+  background: linear-gradient(to top left, #ffccff 0%, #cc99ff 100%);
 margin:auto;
 margin-top: 10%;
 
@@ -60,12 +61,18 @@ cursor: copy;
 
 
 
-
 .bigtitle {
-  font-size: 40px;
-  color:purple;
-  text-shadow: 2px 2px 2px ghostwhite;
-  margin-top:15%;
+  font-size: 55px;
+  color:white;
+  text-shadow: 2px 2px 2px plum;
+  margin-top:11%;
+}
+
+.bigtitle:hover {
+  font-size: 55px;
+  color:plum;
+  text-shadow: 2px 2px 2px white;
+  margin-top:11%;
 }
 
 .head {

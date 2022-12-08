@@ -13,12 +13,41 @@ margin-top: 10%;
 .bigtitle {
   font-size: 40px;
   color:white;
-  margin-top:10%;
+  margin-top:15%;
   color:purple;text-align:right;padding-left:10px;padding-right:10px;
+  text-shadow: 2px 2px plum
 }
 
-a:hover {
+.bigtitle:hover {
+  font-size: 40px;
+  color:white;
+  margin-top:15%;
+  color:plum;text-align:right;padding-left:10px;padding-right:10px;
+  text-shadow: 2px 2px purple
+}
+.bigttitle:hover {
+  font-size: 40px;
+  color:white;
+  margin-top:15%;
+  color:plum;text-align:left;padding-left:10px;padding-right:10px;
+  text-shadow: 2px 2px purple
+}
+
+.bigttitle {
+  font-size: 40px;
+  color:purple;
+  margin-top:15%;
+  color:purple;text-align:left;padding-left:10px;padding-right:10px;
+  text-shadow: 2px 2px plum
+}
+
+h4:hover {
   color:mistyrose
+}
+
+
+a:hover {
+  color:mistyrose;
 }
 
 .biggtitle {
