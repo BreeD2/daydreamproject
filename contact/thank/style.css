@@ -90,15 +90,15 @@ h1:hover {
 button {
   color:white;
   background-color: purple;
-  padding:2px;
+  padding:5px;
   border:2px solid white
 }
 
-button {
-  color:white;
-  background-color: plum;
-  padding:2px;
-  border:2px solid white
+button:hover {
+  color:mistyrose;
+  background-color: mediumpurple;
+  padding:5px;
+  border:2px solid mistyrose
 }
 
 
