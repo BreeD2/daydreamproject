@@ -17,12 +17,12 @@ a:hover {
 
 .bigtitle {
 color:white; text-shadow:2px 2px 2px purple;text;font-size: 45px;
-  margin-top:10%;
+  margin-top:0%;
 }
 
 .bigtitle:hover {
 color:purple; text-shadow:2px 2px 2px white;text;font-size: 45px;
-  margin-top:10%;
+  margin-top:0%;
 }
 
 .head {
