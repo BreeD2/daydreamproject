@@ -87,6 +87,21 @@ h1:hover {
   color:white
 }
 
+button {
+  color:white;
+  background-color: purple;
+  padding:2px;
+  border:2px solid white
+}
+
+button {
+  color:white;
+  background-color: plum;
+  padding:2px;
+  border:2px solid white
+}
+
+
 a:hover {
   color:mistyrose
 }
